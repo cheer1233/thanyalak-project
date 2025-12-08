@@ -46,6 +46,7 @@
         <Nuxt />
       </v-container>
     </v-main>
+
     <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
       <v-list>
         <v-list-item @click.native="right = !right">
@@ -56,6 +57,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
+    
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>

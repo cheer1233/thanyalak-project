@@ -1,0 +1,11 @@
+Node Version : 24
+dir คือ :  แสดงว่าเราอยู่ในไซต์งานโปรเจคของตัวเองเรียบร้อย
+ถ้าไป โหลดจาก giyhob มา : npm i
+วิธีการเปิด Development : npm run dev
+โครงสร้างไดเรกเทอรี่
+    pages:  จะสร้างโค้ดสร้างไฟล์ในนี้
+    components : 
+    public/ static : รูปภาพต่างๆ
+    app.vue 
+    nuxt.config.ts
+    v-row : คอมโพเนนต์สำหรับการจัด layout แบบ Grid ของ Vuetify (UI Framework ของ Vue.js)
