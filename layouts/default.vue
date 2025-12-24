@@ -41,6 +41,7 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
+    
     <v-main>
       <v-container>
         <Nuxt />
@@ -57,7 +58,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    
+
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
@@ -75,13 +76,18 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'list',
           to: '/',
+        },
+          {
+          icon: 'mdi-chart-bubble',
+          title: 'Product_list',
+          to: '/Product_list',
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
+          title: 'Cart',
+          to: '/cart',
         },
       ],
       miniVariant: false,
